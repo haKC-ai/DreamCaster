@@ -34,7 +34,9 @@
 ```                            
 Simple scripts that turns a text prompt into a 240x240 JPG or GIF, saves it to a local gallery, then uploads and sets it on your fancy "hologram" device sitting around just displaying dust.
 
-
+<p align="center">
+  <img src="res/images/hakced.png" alt="DreamCaster preview" width="1000">
+</p>
 
 ## Features
 
@@ -47,6 +49,11 @@ Simple scripts that turns a text prompt into a 240x240 JPG or GIF, saves it to a
 * Uploads with `POST /doUpload?dir=/image` then sets with `GET /set?img=/image/filename`
 * SHA256 based filenames in `gallery/`
 * Logging to `dreamcaster.log`
+
+<p align="center">
+  <img src="res/images/23ed.png" alt="DreamCaster preview" width="1000">
+</p>
+
 
 ## Project layout
 
